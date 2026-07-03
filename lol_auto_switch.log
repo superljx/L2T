@@ -1792,3 +1792,82 @@ AttributeError: 'WindowManager' object has no attribute 'is_edge_foreground'
 2026-07-03 19:52:31 [INFO] MainController: 正在停止控制器...
 2026-07-03 19:52:31 [INFO] Detector: 检测器已关闭
 2026-07-03 19:52:31 [INFO] MainController: 控制器已停止
+2026-07-03 19:56:18 [INFO] Detector: 游戏状态检测器初始化完成 (OCR文字识别模式)
+2026-07-03 19:56:18 [INFO] WindowManager: 窗口管理器初始化完成
+2026-07-03 19:56:18 [INFO] BrowserController: 浏览器控制器初始化完成
+2026-07-03 19:56:18 [INFO] InputController: 输入控制器初始化完成
+2026-07-03 19:56:18 [INFO] MainController: ============================================================
+2026-07-03 19:56:18 [INFO] MainController: 自动切换控制器初始化完成
+2026-07-03 19:56:18 [INFO] MainController: ============================================================
+2026-07-03 19:56:18 [INFO] MainController: 正在检查系统前提条件...
+2026-07-03 19:56:18 [INFO] MainController: ✓ LOL进程已运行
+2026-07-03 19:56:18 [INFO] MainController: ✓ 系统前提条件检查完成
+2026-07-03 19:56:18 [INFO] MainController: 
+============================================================
+2026-07-03 19:56:18 [INFO] MainController: 开始检测循环
+2026-07-03 19:56:18 [INFO] MainController: ============================================================
+2026-07-03 19:56:24 [INFO] Detector: 检测到阵亡状态！复活倒计时: 37秒
+2026-07-03 19:56:24 [INFO] MainController: ============================================================
+2026-07-03 19:56:24 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:56:24 [INFO] MainController: ============================================================
+2026-07-03 19:56:24 [INFO] MainController: Edge已运行
+2026-07-03 19:56:24 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:56:24 [INFO] WindowManager: 未找到抖音标签页
+2026-07-03 19:56:24 [INFO] WindowManager: 抖音页面不存在，打开新页面
+2026-07-03 19:56:27 [INFO] WindowManager: 找到抖音标签页: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 13 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:56:27 [INFO] WindowManager: 找到新打开的抖音页面（尝试1/5）
+2026-07-03 19:56:28 [INFO] WindowManager: 窗口已激活: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 13 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:56:28 [INFO] MainController: ✓ 已设置复活倒计时: 37秒 → 32.4秒（已扣除切换耗时4.6秒）
+2026-07-03 19:56:28 [INFO] MainController: ============================================================
+2026-07-03 19:56:28 [INFO] MainController: 切换流程完成（耗时4.6秒）
+2026-07-03 19:56:29 [INFO] MainController: ============================================================
+2026-07-03 19:56:36 [INFO] MainController: 运行时间: 17.7秒 | FPS: 1.7 | 状态: dead | 复活倒计时: 25秒 | CPU: 0.0%
+2026-07-03 19:56:54 [INFO] MainController: 运行时间: 35.5秒 | FPS: 1.7 | 状态: uncertain | 复活倒计时: 7秒 | CPU: 0.0%
+2026-07-03 19:56:59 [INFO] MainController: ============================================================
+2026-07-03 19:56:59 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:56:59 [INFO] MainController: ============================================================
+2026-07-03 19:56:59 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:56:59 [INFO] InputController: 发送播放键: space
+2026-07-03 19:57:00 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:57:00 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:57:01 [INFO] WindowManager: 窗口已激活: League of Legends (TM) Client
+2026-07-03 19:57:01 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:57:01 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:57:01 [INFO] MainController: ============================================================
+2026-07-03 19:57:01 [INFO] MainController: 切换流程完成
+2026-07-03 19:57:01 [INFO] MainController: ============================================================
+2026-07-03 19:57:05 [INFO] Detector: 检测到阵亡状态！复活倒计时: 11秒
+2026-07-03 19:57:07 [INFO] MainController: 运行时间: 49.0秒 | FPS: 2.3 | 状态: uncertain | CPU: 0.0%
+2026-07-03 19:57:19 [INFO] MainController: 运行时间: 1分0秒 | FPS: 2.6 | 状态: uncertain | CPU: 0.0%
+2026-07-03 19:57:35 [INFO] MainController: 运行时间: 1分17秒 | FPS: 1.8 | 状态: uncertain | CPU: 0.0%
+2026-07-03 19:57:41 [INFO] MainController: ============================================================
+2026-07-03 19:57:41 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:57:41 [INFO] MainController: ============================================================
+2026-07-03 19:57:41 [INFO] MainController: Edge已运行
+2026-07-03 19:57:41 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:57:41 [INFO] WindowManager: 找到抖音标签页: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 13 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:57:41 [INFO] WindowManager: 抖音页面已存在，切换到该页面
+2026-07-03 19:57:42 [INFO] WindowManager: 窗口已激活: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 13 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:57:42 [INFO] MainController: ✓ 已设置复活倒计时: 37秒 → 35.4秒（已扣除切换耗时1.6秒）
+2026-07-03 19:57:42 [INFO] MainController: ============================================================
+2026-07-03 19:57:42 [INFO] MainController: 切换流程完成（耗时1.6秒）
+2026-07-03 19:57:42 [INFO] MainController: ============================================================
+2026-07-03 19:57:50 [INFO] MainController: 运行时间: 1分31秒 | FPS: 2.2 | 状态: uncertain | 复活倒计时: 28秒 | CPU: 0.0%
+2026-07-03 19:58:07 [INFO] MainController: 运行时间: 1分49秒 | FPS: 1.7 | 状态: uncertain | 复活倒计时: 10秒 | CPU: 31.2%
+2026-07-03 19:58:16 [INFO] MainController: ============================================================
+2026-07-03 19:58:16 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:58:16 [INFO] MainController: ============================================================
+2026-07-03 19:58:16 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:58:16 [INFO] InputController: 发送播放键: space
+2026-07-03 19:58:16 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:58:16 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:58:17 [INFO] WindowManager: 窗口已激活: League of Legends (TM) Client
+2026-07-03 19:58:17 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:58:17 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:58:18 [INFO] MainController: ============================================================
+2026-07-03 19:58:18 [INFO] MainController: 切换流程完成
+2026-07-03 19:58:18 [INFO] MainController: ============================================================
+2026-07-03 19:58:22 [INFO] MainController: 运行时间: 2分3秒 | FPS: 2.0 | 状态: alive | CPU: 0.0%
+2026-07-03 19:58:29 [INFO] MainController: 正在停止控制器...
+2026-07-03 19:58:29 [INFO] Detector: 检测器已关闭
+2026-07-03 19:58:29 [INFO] MainController: 控制器已停止
