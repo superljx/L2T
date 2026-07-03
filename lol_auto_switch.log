@@ -1202,3 +1202,541 @@
 2026-07-03 18:42:30 [INFO] MainController: 正在停止控制器...
 2026-07-03 18:42:30 [INFO] Detector: 检测器已关闭
 2026-07-03 18:42:30 [INFO] MainController: 控制器已停止
+2026-07-03 19:09:23 [INFO] Detector: 游戏状态检测器初始化完成 (OCR文字识别模式)
+2026-07-03 19:09:23 [INFO] WindowManager: 窗口管理器初始化完成
+2026-07-03 19:09:23 [INFO] BrowserController: 浏览器控制器初始化完成
+2026-07-03 19:09:23 [INFO] InputController: 输入控制器初始化完成
+2026-07-03 19:09:23 [INFO] MainController: ============================================================
+2026-07-03 19:09:23 [INFO] MainController: 自动切换控制器初始化完成
+2026-07-03 19:09:23 [INFO] MainController: ============================================================
+2026-07-03 19:09:23 [INFO] MainController: 正在检查系统前提条件...
+2026-07-03 19:09:23 [INFO] MainController: ✓ LOL进程已运行
+2026-07-03 19:09:23 [INFO] MainController: ✓ 系统前提条件检查完成
+2026-07-03 19:09:23 [INFO] MainController: 
+============================================================
+2026-07-03 19:09:23 [INFO] MainController: 开始检测循环
+2026-07-03 19:09:23 [INFO] MainController: ============================================================
+2026-07-03 19:09:28 [INFO] Detector: 检测到阵亡状态！复活倒计时: 13秒
+2026-07-03 19:09:28 [INFO] MainController: ============================================================
+2026-07-03 19:09:28 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:09:28 [INFO] MainController: ============================================================
+2026-07-03 19:09:28 [INFO] MainController: Edge已运行
+2026-07-03 19:09:28 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:09:28 [INFO] WindowManager: 找到抖音标签页: superljx/L2T: 英雄联盟阵亡后，自动跳转到 Edge 浏览器打开抖音 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:09:28 [INFO] WindowManager: 抖音页面已存在，切换到该页面
+2026-07-03 19:09:29 [INFO] WindowManager: 窗口已激活: superljx/L2T: 英雄联盟阵亡后，自动跳转到 Edge 浏览器打开抖音 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:09:30 [INFO] InputController: 发送播放键: space
+2026-07-03 19:09:30 [INFO] MainController: ✓ 播放键已发送
+2026-07-03 19:09:30 [INFO] MainController: ✓ 已设置复活倒计时: 13秒
+2026-07-03 19:09:30 [INFO] MainController: ============================================================
+2026-07-03 19:09:30 [INFO] MainController: 切换流程完成
+2026-07-03 19:09:30 [INFO] MainController: ============================================================
+2026-07-03 19:09:40 [INFO] MainController: 运行时间: 16.9秒 | FPS: 1.8 | 状态: uncertain | 复活倒计时: 3秒 | CPU: 15.5%
+2026-07-03 19:09:41 [INFO] MainController: ============================================================
+2026-07-03 19:09:41 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:09:41 [INFO] MainController: ============================================================
+2026-07-03 19:09:41 [ERROR] MainController: 检测循环异常: 'WindowManager' object has no attribute 'is_edge_foreground'
+Traceback (most recent call last):
+  File "D:\code\L2T\main.py", line 206, in run_detection_loop
+    self.switch_back_to_game()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\code\L2T\main.py", line 82, in switch_back_to_game
+    if self.window_manager.is_edge_foreground():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'WindowManager' object has no attribute 'is_edge_foreground'
+2026-07-03 19:09:41 [INFO] MainController: 正在停止控制器...
+2026-07-03 19:09:41 [INFO] Detector: 检测器已关闭
+2026-07-03 19:09:41 [INFO] MainController: 控制器已停止
+2026-07-03 19:14:06 [INFO] Detector: 游戏状态检测器初始化完成 (OCR文字识别模式)
+2026-07-03 19:14:06 [INFO] WindowManager: 窗口管理器初始化完成
+2026-07-03 19:14:06 [INFO] BrowserController: 浏览器控制器初始化完成
+2026-07-03 19:14:06 [INFO] InputController: 输入控制器初始化完成
+2026-07-03 19:14:06 [INFO] MainController: ============================================================
+2026-07-03 19:14:06 [INFO] MainController: 自动切换控制器初始化完成
+2026-07-03 19:14:06 [INFO] MainController: ============================================================
+2026-07-03 19:14:06 [INFO] MainController: 正在检查系统前提条件...
+2026-07-03 19:14:06 [INFO] MainController: ✓ LOL进程已运行
+2026-07-03 19:14:06 [INFO] MainController: ✓ 系统前提条件检查完成
+2026-07-03 19:14:06 [INFO] MainController: 
+============================================================
+2026-07-03 19:14:06 [INFO] MainController: 开始检测循环
+2026-07-03 19:14:06 [INFO] MainController: ============================================================
+2026-07-03 19:14:11 [INFO] Detector: 检测到阵亡状态！复活倒计时: 13秒
+2026-07-03 19:14:11 [INFO] MainController: ============================================================
+2026-07-03 19:14:11 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:14:11 [INFO] MainController: ============================================================
+2026-07-03 19:14:11 [INFO] MainController: Edge已运行
+2026-07-03 19:14:11 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:14:11 [INFO] WindowManager: 找到抖音标签页: 抖音-记录美好生活 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:14:11 [INFO] WindowManager: 抖音页面已存在，切换到该页面
+2026-07-03 19:14:11 [INFO] WindowManager: 窗口已激活: 抖音-记录美好生活 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:14:12 [INFO] InputController: 发送播放键: space
+2026-07-03 19:14:12 [INFO] MainController: ✓ 播放键已发送
+2026-07-03 19:14:12 [INFO] MainController: ✓ 已设置复活倒计时: 13秒
+2026-07-03 19:14:12 [INFO] MainController: ============================================================
+2026-07-03 19:14:12 [INFO] MainController: 切换流程完成
+2026-07-03 19:14:12 [INFO] MainController: ============================================================
+2026-07-03 19:14:19 [INFO] MainController: 运行时间: 13.1秒 | FPS: 2.3 | 状态: uncertain | 复活倒计时: 6秒 | CPU: 0.0%
+2026-07-03 19:14:24 [INFO] MainController: ============================================================
+2026-07-03 19:14:24 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:14:24 [INFO] MainController: ============================================================
+2026-07-03 19:14:24 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:14:24 [INFO] InputController: 发送播放键: space
+2026-07-03 19:14:24 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:14:24 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:14:25 [INFO] WindowManager: 窗口已激活: League of Legends (TM) Client
+2026-07-03 19:14:25 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:14:25 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:14:25 [INFO] MainController: ============================================================
+2026-07-03 19:14:25 [INFO] MainController: 切换流程完成
+2026-07-03 19:14:25 [INFO] MainController: ============================================================
+2026-07-03 19:14:28 [INFO] MainController: 运行时间: 22.1秒 | FPS: 3.4 | 状态: alive | CPU: 0.0%
+2026-07-03 19:14:33 [INFO] Detector: 检测到阵亡状态！复活倒计时: 13秒
+2026-07-03 19:14:35 [INFO] MainController: 检测到阵亡，但在冷却中（剩余 5.1秒）
+2026-07-03 19:14:39 [INFO] MainController: 运行时间: 32.9秒 | FPS: 2.8 | 状态: dead | CPU: 0.0%
+2026-07-03 19:15:01 [INFO] MainController: 运行时间: 54.7秒 | FPS: 1.4 | 状态: uncertain | CPU: 0.0%
+2026-07-03 19:15:15 [INFO] MainController: ============================================================
+2026-07-03 19:15:15 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:15:15 [INFO] MainController: ============================================================
+2026-07-03 19:15:15 [INFO] MainController: Edge已运行
+2026-07-03 19:15:15 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:15:15 [INFO] WindowManager: 未找到抖音标签页
+2026-07-03 19:15:15 [INFO] WindowManager: 抖音页面不存在，打开新页面
+2026-07-03 19:15:17 [INFO] WindowManager: 未找到抖音标签页
+2026-07-03 19:15:18 [INFO] WindowManager: 未找到抖音标签页
+2026-07-03 19:15:18 [INFO] WindowManager: 未找到抖音标签页
+2026-07-03 19:15:19 [INFO] WindowManager: 未找到抖音标签页
+2026-07-03 19:15:19 [INFO] WindowManager: 未找到抖音标签页
+2026-07-03 19:15:19 [WARNING] WindowManager: 未能找到新打开的抖音页面，切换到Edge主窗口
+2026-07-03 19:15:19 [INFO] WindowManager: 正在切换到Edge浏览器...
+2026-07-03 19:15:20 [INFO] WindowManager: 窗口已激活: Git常见命令清单 - DeepSeek 和另外 9 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:15:21 [INFO] InputController: 发送播放键: space
+2026-07-03 19:15:21 [INFO] MainController: ✓ 播放键已发送
+2026-07-03 19:15:21 [INFO] MainController: ✓ 已设置复活倒计时: 14秒
+2026-07-03 19:15:21 [INFO] MainController: ============================================================
+2026-07-03 19:15:21 [INFO] MainController: 切换流程完成
+2026-07-03 19:15:21 [INFO] MainController: ============================================================
+2026-07-03 19:15:24 [INFO] MainController: 运行时间: 1分18秒 | FPS: 1.3 | 状态: uncertain | 复活倒计时: 11秒 | CPU: 0.0%
+2026-07-03 19:15:34 [INFO] MainController: ============================================================
+2026-07-03 19:15:34 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:15:34 [INFO] MainController: ============================================================
+2026-07-03 19:15:34 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:15:34 [INFO] InputController: 发送播放键: space
+2026-07-03 19:15:34 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:15:35 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:15:36 [INFO] WindowManager: 窗口已激活: League of Legends (TM) Client
+2026-07-03 19:15:36 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:15:36 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:15:36 [INFO] MainController: ============================================================
+2026-07-03 19:15:36 [INFO] MainController: 切换流程完成
+2026-07-03 19:15:36 [INFO] MainController: ============================================================
+2026-07-03 19:15:39 [INFO] MainController: 正在停止控制器...
+2026-07-03 19:15:39 [INFO] Detector: 检测器已关闭
+2026-07-03 19:15:39 [INFO] MainController: 控制器已停止
+2026-07-03 19:20:09 [INFO] Detector: 游戏状态检测器初始化完成 (OCR文字识别模式)
+2026-07-03 19:20:09 [INFO] WindowManager: 窗口管理器初始化完成
+2026-07-03 19:20:09 [INFO] BrowserController: 浏览器控制器初始化完成
+2026-07-03 19:20:09 [INFO] InputController: 输入控制器初始化完成
+2026-07-03 19:20:09 [INFO] MainController: ============================================================
+2026-07-03 19:20:09 [INFO] MainController: 自动切换控制器初始化完成
+2026-07-03 19:20:09 [INFO] MainController: ============================================================
+2026-07-03 19:20:09 [INFO] MainController: 正在检查系统前提条件...
+2026-07-03 19:20:09 [INFO] MainController: ✓ LOL进程已运行
+2026-07-03 19:20:09 [INFO] MainController: ✓ 系统前提条件检查完成
+2026-07-03 19:20:09 [INFO] MainController: 
+============================================================
+2026-07-03 19:20:09 [INFO] MainController: 开始检测循环
+2026-07-03 19:20:09 [INFO] MainController: ============================================================
+2026-07-03 19:20:13 [INFO] Detector: 检测到阵亡状态！复活倒计时: 1秒
+2026-07-03 19:20:13 [INFO] MainController: ============================================================
+2026-07-03 19:20:13 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:20:13 [INFO] MainController: ============================================================
+2026-07-03 19:20:13 [INFO] MainController: Edge已运行
+2026-07-03 19:20:13 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:20:13 [INFO] WindowManager: 未找到抖音标签页
+2026-07-03 19:20:13 [INFO] WindowManager: 抖音页面不存在，打开新页面
+2026-07-03 19:20:16 [INFO] WindowManager: 找到抖音标签页: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:20:16 [INFO] WindowManager: 找到新打开的抖音页面（尝试1/5）
+2026-07-03 19:20:17 [INFO] WindowManager: 窗口已激活: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:20:17 [INFO] InputController: 发送播放键: space
+2026-07-03 19:20:18 [INFO] MainController: ✓ 播放键已发送
+2026-07-03 19:20:18 [INFO] MainController: ✓ 已设置复活倒计时: 1秒
+2026-07-03 19:20:18 [INFO] MainController: ============================================================
+2026-07-03 19:20:18 [INFO] MainController: 切换流程完成
+2026-07-03 19:20:18 [INFO] MainController: ============================================================
+2026-07-03 19:20:18 [INFO] MainController: ============================================================
+2026-07-03 19:20:18 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:20:18 [INFO] MainController: ============================================================
+2026-07-03 19:20:18 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:20:18 [INFO] InputController: 发送播放键: space
+2026-07-03 19:20:19 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:20:19 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:20:20 [INFO] WindowManager: 窗口已激活: League of Legends (TM) Client
+2026-07-03 19:20:20 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:20:20 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:20:20 [INFO] MainController: ============================================================
+2026-07-03 19:20:20 [INFO] MainController: 切换流程完成
+2026-07-03 19:20:20 [INFO] MainController: ============================================================
+2026-07-03 19:20:24 [INFO] Detector: 检测到阵亡状态！复活倒计时: 3秒
+2026-07-03 19:20:25 [INFO] MainController: 正在停止控制器...
+2026-07-03 19:20:25 [INFO] Detector: 检测器已关闭
+2026-07-03 19:20:25 [INFO] MainController: 控制器已停止
+2026-07-03 19:21:09 [INFO] Detector: 游戏状态检测器初始化完成 (OCR文字识别模式)
+2026-07-03 19:21:09 [INFO] WindowManager: 窗口管理器初始化完成
+2026-07-03 19:21:09 [INFO] BrowserController: 浏览器控制器初始化完成
+2026-07-03 19:21:09 [INFO] InputController: 输入控制器初始化完成
+2026-07-03 19:21:09 [INFO] MainController: ============================================================
+2026-07-03 19:21:09 [INFO] MainController: 自动切换控制器初始化完成
+2026-07-03 19:21:09 [INFO] MainController: ============================================================
+2026-07-03 19:21:09 [INFO] MainController: 正在检查系统前提条件...
+2026-07-03 19:21:09 [INFO] MainController: ✓ LOL进程已运行
+2026-07-03 19:21:09 [INFO] MainController: ✓ 系统前提条件检查完成
+2026-07-03 19:21:09 [INFO] MainController: 
+============================================================
+2026-07-03 19:21:09 [INFO] MainController: 开始检测循环
+2026-07-03 19:21:09 [INFO] MainController: ============================================================
+2026-07-03 19:21:13 [INFO] Detector: 检测到阵亡状态！复活倒计时: 14秒
+2026-07-03 19:21:13 [INFO] MainController: ============================================================
+2026-07-03 19:21:13 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:21:13 [INFO] MainController: ============================================================
+2026-07-03 19:21:13 [INFO] MainController: Edge已运行
+2026-07-03 19:21:13 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:21:13 [INFO] WindowManager: 找到抖音标签页: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:21:13 [INFO] WindowManager: 抖音页面已存在，切换到该页面
+2026-07-03 19:21:14 [INFO] WindowManager: 窗口已激活: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:21:14 [INFO] InputController: 发送播放键: space
+2026-07-03 19:21:15 [INFO] MainController: ✓ 播放键已发送
+2026-07-03 19:21:15 [INFO] MainController: ✓ 已设置复活倒计时: 14秒
+2026-07-03 19:21:15 [INFO] MainController: ============================================================
+2026-07-03 19:21:15 [INFO] MainController: 切换流程完成
+2026-07-03 19:21:15 [INFO] MainController: ============================================================
+2026-07-03 19:21:27 [INFO] MainController: ============================================================
+2026-07-03 19:21:27 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:21:27 [INFO] MainController: ============================================================
+2026-07-03 19:21:27 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:21:27 [INFO] InputController: 发送播放键: space
+2026-07-03 19:21:28 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:21:28 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:21:29 [INFO] WindowManager: 窗口已激活: League of Legends (TM) Client
+2026-07-03 19:21:29 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:21:29 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:21:29 [INFO] MainController: ============================================================
+2026-07-03 19:21:29 [INFO] MainController: 切换流程完成
+2026-07-03 19:21:29 [INFO] MainController: ============================================================
+2026-07-03 19:21:29 [INFO] MainController: 运行时间: 20.1秒 | FPS: 1.5 | 状态: uncertain | CPU: 0.0%
+2026-07-03 19:21:42 [INFO] Detector: 检测到阵亡状态！复活倒计时: 14秒
+2026-07-03 19:21:42 [INFO] MainController: 运行时间: 33.1秒 | FPS: 2.3 | 状态: dead | CPU: 0.0%
+2026-07-03 19:21:43 [INFO] MainController: 检测到阵亡，但在冷却中（剩余 1.2秒）
+2026-07-03 19:21:44 [INFO] MainController: ============================================================
+2026-07-03 19:21:44 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:21:44 [INFO] MainController: ============================================================
+2026-07-03 19:21:44 [INFO] MainController: Edge已运行
+2026-07-03 19:21:44 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:21:44 [INFO] WindowManager: 未找到抖音标签页
+2026-07-03 19:21:44 [INFO] WindowManager: 抖音页面不存在，打开新页面
+2026-07-03 19:21:47 [INFO] WindowManager: 找到抖音标签页: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:21:47 [INFO] WindowManager: 找到新打开的抖音页面（尝试1/5）
+2026-07-03 19:21:48 [INFO] WindowManager: 窗口已激活: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:21:48 [INFO] InputController: 发送播放键: space
+2026-07-03 19:21:49 [INFO] MainController: ✓ 播放键已发送
+2026-07-03 19:21:49 [INFO] MainController: ✓ 已设置复活倒计时: 12秒
+2026-07-03 19:21:49 [INFO] MainController: ============================================================
+2026-07-03 19:21:49 [INFO] MainController: 切换流程完成
+2026-07-03 19:21:49 [INFO] MainController: ============================================================
+2026-07-03 19:21:59 [INFO] MainController: ============================================================
+2026-07-03 19:21:59 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:21:59 [INFO] MainController: ============================================================
+2026-07-03 19:21:59 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:21:59 [INFO] InputController: 发送播放键: space
+2026-07-03 19:22:00 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:22:00 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:22:01 [INFO] WindowManager: 窗口已激活: League of Legends (TM) Client
+2026-07-03 19:22:01 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:22:01 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:22:01 [INFO] MainController: ============================================================
+2026-07-03 19:22:01 [INFO] MainController: 切换流程完成
+2026-07-03 19:22:01 [INFO] MainController: ============================================================
+2026-07-03 19:22:03 [INFO] Detector: 检测到阵亡状态！复活倒计时: 1秒
+2026-07-03 19:22:04 [INFO] MainController: 运行时间: 54.3秒 | FPS: 1.4 | 状态: dead | CPU: 0.0%
+2026-07-03 19:22:04 [INFO] MainController: 检测到阵亡，但在冷却中（剩余 11.9秒）
+2026-07-03 19:22:10 [INFO] MainController: 检测到阵亡，但在冷却中（剩余 5.7秒）
+2026-07-03 19:22:16 [INFO] MainController: ============================================================
+2026-07-03 19:22:41 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:22:41 [INFO] MainController: ============================================================
+2026-07-03 19:22:41 [INFO] MainController: Edge已运行
+2026-07-03 19:22:41 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:22:41 [INFO] WindowManager: 找到抖音标签页: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:22:41 [INFO] WindowManager: 抖音页面已存在，切换到该页面
+2026-07-03 19:22:42 [INFO] WindowManager: 窗口已激活: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:22:42 [INFO] InputController: 发送播放键: space
+2026-07-03 19:22:42 [INFO] MainController: ✓ 播放键已发送
+2026-07-03 19:22:42 [INFO] MainController: ✓ 已设置复活倒计时: 1秒
+2026-07-03 19:22:42 [INFO] MainController: ============================================================
+2026-07-03 19:22:42 [INFO] MainController: 切换流程完成
+2026-07-03 19:22:42 [INFO] MainController: ============================================================
+2026-07-03 19:22:42 [ERROR] MainController: 看门狗超时！检测循环可能卡死
+2026-07-03 19:22:43 [INFO] MainController: ============================================================
+2026-07-03 19:22:43 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:22:43 [INFO] MainController: ============================================================
+2026-07-03 19:22:43 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:22:43 [INFO] InputController: 发送播放键: space
+2026-07-03 19:22:43 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:22:44 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:22:45 [INFO] WindowManager: 窗口已激活: League of Legends
+2026-07-03 19:22:45 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:22:45 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:22:45 [INFO] MainController: ============================================================
+2026-07-03 19:22:45 [INFO] MainController: 切换流程完成
+2026-07-03 19:22:45 [INFO] MainController: ============================================================
+2026-07-03 19:22:47 [INFO] MainController: 运行时间: 1分37秒 | FPS: 0.7 | 状态: alive | CPU: 0.0%
+2026-07-03 19:22:47 [INFO] MainController: 正在停止控制器...
+2026-07-03 19:22:47 [INFO] Detector: 检测器已关闭
+2026-07-03 19:22:47 [INFO] MainController: 控制器已停止
+2026-07-03 19:25:23 [INFO] Detector: 游戏状态检测器初始化完成 (OCR文字识别模式)
+2026-07-03 19:25:23 [INFO] WindowManager: 窗口管理器初始化完成
+2026-07-03 19:25:23 [INFO] BrowserController: 浏览器控制器初始化完成
+2026-07-03 19:25:23 [INFO] InputController: 输入控制器初始化完成
+2026-07-03 19:25:23 [INFO] MainController: ============================================================
+2026-07-03 19:25:23 [INFO] MainController: 自动切换控制器初始化完成
+2026-07-03 19:25:23 [INFO] MainController: ============================================================
+2026-07-03 19:25:23 [INFO] MainController: 正在检查系统前提条件...
+2026-07-03 19:25:23 [INFO] MainController: ✓ LOL进程已运行
+2026-07-03 19:25:23 [INFO] MainController: ✓ 系统前提条件检查完成
+2026-07-03 19:25:23 [INFO] MainController: 
+============================================================
+2026-07-03 19:25:23 [INFO] MainController: 开始检测循环
+2026-07-03 19:25:23 [INFO] MainController: ============================================================
+2026-07-03 19:25:27 [INFO] Detector: 检测到阵亡状态！复活倒计时: 14秒
+2026-07-03 19:25:27 [INFO] MainController: ============================================================
+2026-07-03 19:25:27 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:25:27 [INFO] MainController: ============================================================
+2026-07-03 19:25:27 [INFO] MainController: Edge已运行
+2026-07-03 19:25:27 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:25:27 [INFO] WindowManager: 未找到抖音标签页
+2026-07-03 19:25:27 [INFO] WindowManager: 抖音页面不存在，打开新页面
+2026-07-03 19:25:30 [INFO] WindowManager: 找到抖音标签页: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:25:30 [INFO] WindowManager: 找到新打开的抖音页面（尝试1/5）
+2026-07-03 19:25:31 [INFO] WindowManager: 窗口已激活: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:25:31 [INFO] InputController: 发送播放键: space
+2026-07-03 19:25:31 [INFO] MainController: ✓ 播放键已发送
+2026-07-03 19:25:31 [INFO] MainController: ✓ 已设置复活倒计时: 14秒
+2026-07-03 19:25:31 [INFO] MainController: ============================================================
+2026-07-03 19:25:31 [INFO] MainController: 切换流程完成
+2026-07-03 19:25:31 [INFO] MainController: ============================================================
+2026-07-03 19:25:42 [INFO] MainController: 运行时间: 18.9秒 | FPS: 1.6 | 状态: dead | 复活倒计时: 4秒 | CPU: 0.0%
+2026-07-03 19:25:44 [INFO] MainController: ============================================================
+2026-07-03 19:25:44 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:25:44 [INFO] MainController: ============================================================
+2026-07-03 19:25:44 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:25:44 [INFO] InputController: 发送播放键: space
+2026-07-03 19:25:44 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:25:44 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:25:45 [INFO] WindowManager: 窗口已激活: League of Legends (TM) Client
+2026-07-03 19:25:45 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:25:45 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:25:45 [INFO] MainController: ============================================================
+2026-07-03 19:25:45 [INFO] MainController: 切换流程完成
+2026-07-03 19:25:45 [INFO] MainController: ============================================================
+2026-07-03 19:25:47 [INFO] Detector: 检测到阵亡状态！复活倒计时: 7秒
+2026-07-03 19:25:49 [INFO] MainController: 正在停止控制器...
+2026-07-03 19:25:49 [INFO] Detector: 检测器已关闭
+2026-07-03 19:25:49 [INFO] MainController: 控制器已停止
+2026-07-03 19:27:38 [INFO] Detector: 游戏状态检测器初始化完成 (OCR文字识别模式)
+2026-07-03 19:27:38 [INFO] WindowManager: 窗口管理器初始化完成
+2026-07-03 19:27:38 [INFO] BrowserController: 浏览器控制器初始化完成
+2026-07-03 19:27:38 [INFO] InputController: 输入控制器初始化完成
+2026-07-03 19:27:38 [INFO] MainController: ============================================================
+2026-07-03 19:27:38 [INFO] MainController: 自动切换控制器初始化完成
+2026-07-03 19:27:38 [INFO] MainController: ============================================================
+2026-07-03 19:27:38 [INFO] MainController: 正在检查系统前提条件...
+2026-07-03 19:27:38 [INFO] MainController: ✓ LOL进程已运行
+2026-07-03 19:27:38 [INFO] MainController: ✓ 系统前提条件检查完成
+2026-07-03 19:27:38 [INFO] MainController: 
+============================================================
+2026-07-03 19:27:38 [INFO] MainController: 开始检测循环
+2026-07-03 19:27:38 [INFO] MainController: ============================================================
+2026-07-03 19:27:42 [INFO] Detector: 检测到阵亡状态！复活倒计时: 15秒
+2026-07-03 19:27:42 [INFO] MainController: ============================================================
+2026-07-03 19:27:42 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:27:42 [INFO] MainController: ============================================================
+2026-07-03 19:27:42 [INFO] MainController: Edge已运行
+2026-07-03 19:27:42 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:27:42 [INFO] WindowManager: 未找到抖音标签页
+2026-07-03 19:27:42 [INFO] WindowManager: 抖音页面不存在，打开新页面
+2026-07-03 19:27:45 [INFO] WindowManager: 找到抖音标签页: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:27:45 [INFO] WindowManager: 找到新打开的抖音页面（尝试1/5）
+2026-07-03 19:27:46 [INFO] WindowManager: 窗口已激活: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:27:46 [INFO] InputController: 发送播放键: space
+2026-07-03 19:27:47 [INFO] MainController: ✓ 播放键已发送
+2026-07-03 19:27:47 [INFO] MainController: ✓ 已设置复活倒计时: 15秒 → 10.1秒（已扣除切换耗时4.9秒）
+2026-07-03 19:27:47 [INFO] MainController: ============================================================
+2026-07-03 19:27:47 [INFO] MainController: 切换流程完成（耗时4.9秒）
+2026-07-03 19:27:47 [INFO] MainController: ============================================================
+2026-07-03 19:27:55 [INFO] MainController: ============================================================
+2026-07-03 19:27:55 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:27:55 [INFO] MainController: ============================================================
+2026-07-03 19:27:55 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:27:55 [INFO] InputController: 发送播放键: space
+2026-07-03 19:27:55 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:27:56 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:27:57 [INFO] WindowManager: 窗口已激活: League of Legends (TM) Client
+2026-07-03 19:27:57 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:27:57 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:27:57 [INFO] MainController: ============================================================
+2026-07-03 19:27:57 [INFO] MainController: 切换流程完成
+2026-07-03 19:27:57 [INFO] MainController: ============================================================
+2026-07-03 19:27:59 [INFO] MainController: 运行时间: 20.8秒 | FPS: 1.4 | 状态: alive | CPU: 15.6%
+2026-07-03 19:28:04 [INFO] Detector: 检测到阵亡状态！复活倒计时: 1秒
+2026-07-03 19:28:10 [INFO] MainController: 运行时间: 31.7秒 | FPS: 2.8 | 状态: uncertain | CPU: 15.6%
+2026-07-03 19:28:22 [INFO] MainController: 运行时间: 43.6秒 | FPS: 2.6 | 状态: uncertain | CPU: 0.0%
+2026-07-03 19:28:30 [INFO] MainController: 运行时间: 51.6秒 | FPS: 3.8 | 状态: uncertain | CPU: 0.0%
+2026-07-03 19:28:36 [INFO] MainController: 运行时间: 57.7秒 | FPS: 4.9 | 状态: uncertain | CPU: 0.0%
+2026-07-03 19:28:43 [INFO] MainController: 运行时间: 1分4秒 | FPS: 4.7 | 状态: uncertain | CPU: 0.0%
+2026-07-03 19:28:49 [INFO] MainController: 运行时间: 1分10秒 | FPS: 4.7 | 状态: uncertain | CPU: 0.0%
+2026-07-03 19:28:52 [INFO] MainController: ============================================================
+2026-07-03 19:28:52 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:28:52 [INFO] MainController: ============================================================
+2026-07-03 19:28:52 [INFO] MainController: Edge已运行
+2026-07-03 19:28:52 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:28:52 [INFO] WindowManager: 未找到抖音标签页
+2026-07-03 19:28:52 [INFO] WindowManager: 抖音页面不存在，打开新页面
+2026-07-03 19:28:55 [INFO] WindowManager: 找到抖音标签页: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:28:55 [INFO] WindowManager: 找到新打开的抖音页面（尝试1/5）
+2026-07-03 19:28:56 [INFO] WindowManager: 窗口已激活: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:28:56 [INFO] InputController: 发送播放键: space
+2026-07-03 19:28:57 [INFO] MainController: ✓ 播放键已发送
+2026-07-03 19:28:57 [INFO] MainController: ✓ 已设置复活倒计时: 15秒 → 10.1秒（已扣除切换耗时4.9秒）
+2026-07-03 19:28:57 [INFO] MainController: ============================================================
+2026-07-03 19:28:57 [INFO] MainController: 切换流程完成（耗时4.9秒）
+2026-07-03 19:28:57 [INFO] MainController: ============================================================
+2026-07-03 19:29:05 [INFO] MainController: ============================================================
+2026-07-03 19:29:05 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:29:05 [INFO] MainController: ============================================================
+2026-07-03 19:29:05 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:29:05 [INFO] InputController: 发送播放键: space
+2026-07-03 19:29:05 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:29:06 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:29:07 [INFO] WindowManager: 窗口已激活: League of Legends (TM) Client
+2026-07-03 19:29:07 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:29:07 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:29:07 [INFO] MainController: ============================================================
+2026-07-03 19:29:07 [INFO] MainController: 切换流程完成
+2026-07-03 19:29:07 [INFO] MainController: ============================================================
+2026-07-03 19:29:08 [INFO] MainController: 运行时间: 1分30秒 | FPS: 1.5 | 状态: alive | CPU: 0.0%
+2026-07-03 19:29:18 [INFO] MainController: 运行时间: 1分39秒 | FPS: 3.1 | 状态: alive | CPU: 0.0%
+2026-07-03 19:29:27 [INFO] MainController: 运行时间: 1分48秒 | FPS: 3.5 | 状态: alive | CPU: 0.0%
+2026-07-03 19:29:35 [INFO] MainController: 运行时间: 1分56秒 | FPS: 3.7 | 状态: alive | CPU: 0.0%
+2026-07-03 19:29:44 [INFO] MainController: 运行时间: 2分6秒 | FPS: 3.3 | 状态: alive | CPU: 0.0%
+2026-07-03 19:29:53 [INFO] MainController: 运行时间: 2分14秒 | FPS: 3.6 | 状态: alive | CPU: 0.0%
+2026-07-03 19:30:02 [INFO] MainController: 运行时间: 2分23秒 | FPS: 3.4 | 状态: alive | CPU: 0.0%
+2026-07-03 19:30:10 [INFO] MainController: 运行时间: 2分31秒 | FPS: 3.5 | 状态: alive | CPU: 0.0%
+2026-07-03 19:30:19 [INFO] MainController: 运行时间: 2分40秒 | FPS: 3.6 | 状态: alive | CPU: 0.0%
+2026-07-03 19:30:27 [INFO] Detector: 检测到阵亡状态！复活倒计时: 1秒
+2026-07-03 19:30:27 [INFO] MainController: ============================================================
+2026-07-03 19:30:27 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:30:27 [INFO] MainController: ============================================================
+2026-07-03 19:30:27 [INFO] MainController: Edge已运行
+2026-07-03 19:30:27 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:30:27 [INFO] WindowManager: 找到抖音标签页: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:30:27 [INFO] WindowManager: 抖音页面已存在，切换到该页面
+2026-07-03 19:30:28 [INFO] WindowManager: 窗口已激活: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:30:28 [INFO] InputController: 发送播放键: space
+2026-07-03 19:30:29 [INFO] MainController: ✓ 播放键已发送
+2026-07-03 19:30:29 [INFO] MainController: ✓ 已设置复活倒计时: 1.0秒
+2026-07-03 19:30:29 [INFO] MainController: ============================================================
+2026-07-03 19:30:29 [INFO] MainController: 切换流程完成（耗时1.9秒）
+2026-07-03 19:30:29 [INFO] MainController: ============================================================
+2026-07-03 19:30:29 [INFO] MainController: ============================================================
+2026-07-03 19:30:29 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:30:29 [INFO] MainController: ============================================================
+2026-07-03 19:30:29 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:30:29 [INFO] InputController: 发送播放键: space
+2026-07-03 19:30:30 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:30:30 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:30:31 [INFO] WindowManager: 窗口已激活: ✳ LOL 阵亡检测自动切换浏览器系统
+2026-07-03 19:30:31 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:30:31 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:30:31 [INFO] MainController: ============================================================
+2026-07-03 19:30:31 [INFO] MainController: 切换流程完成
+2026-07-03 19:30:31 [INFO] MainController: ============================================================
+2026-07-03 19:30:33 [INFO] Detector: 检测到阵亡状态！复活倒计时: 1秒
+2026-07-03 19:30:34 [INFO] MainController: 运行时间: 2分55秒 | FPS: 2.0 | 状态: uncertain | CPU: 0.0%
+2026-07-03 19:30:48 [INFO] MainController: 运行时间: 3分9秒 | FPS: 2.1 | 状态: uncertain | CPU: 15.5%
+2026-07-03 19:30:49 [INFO] MainController: ============================================================
+2026-07-03 19:30:49 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:30:49 [INFO] MainController: ============================================================
+2026-07-03 19:30:49 [INFO] MainController: Edge已运行
+2026-07-03 19:30:49 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:30:49 [INFO] WindowManager: 找到抖音标签页: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:30:49 [INFO] WindowManager: 抖音页面已存在，切换到该页面
+2026-07-03 19:30:50 [INFO] WindowManager: 窗口已激活: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:30:50 [INFO] InputController: 发送播放键: space
+2026-07-03 19:30:51 [INFO] MainController: ✓ 播放键已发送
+2026-07-03 19:30:51 [INFO] MainController: ✓ 已设置复活倒计时: 16秒 → 14.1秒（已扣除切换耗时1.9秒）
+2026-07-03 19:30:51 [INFO] MainController: ============================================================
+2026-07-03 19:30:51 [INFO] MainController: 切换流程完成（耗时1.9秒）
+2026-07-03 19:30:51 [INFO] MainController: ============================================================
+2026-07-03 19:31:03 [INFO] MainController: ============================================================
+2026-07-03 19:31:03 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:31:03 [INFO] MainController: ============================================================
+2026-07-03 19:31:03 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:31:03 [INFO] InputController: 发送播放键: space
+2026-07-03 19:31:04 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:31:04 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:31:05 [INFO] WindowManager: 窗口已激活: League of Legends (TM) Client
+2026-07-03 19:31:05 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:31:05 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:31:05 [INFO] MainController: ============================================================
+2026-07-03 19:31:05 [INFO] MainController: 切换流程完成
+2026-07-03 19:31:05 [INFO] MainController: ============================================================
+2026-07-03 19:31:06 [INFO] MainController: 运行时间: 3分27秒 | FPS: 1.6 | 状态: alive | CPU: 0.0%
+2026-07-03 19:31:15 [INFO] MainController: 运行时间: 3分36秒 | FPS: 3.5 | 状态: alive | CPU: 0.0%
+2026-07-03 19:31:23 [INFO] MainController: 运行时间: 3分44秒 | FPS: 3.7 | 状态: alive | CPU: 0.0%
+2026-07-03 19:31:26 [INFO] MainController: 正在停止控制器...
+2026-07-03 19:31:26 [INFO] Detector: 检测器已关闭
+2026-07-03 19:31:26 [INFO] MainController: 控制器已停止
+2026-07-03 19:33:51 [INFO] Detector: 游戏状态检测器初始化完成 (OCR文字识别模式)
+2026-07-03 19:33:51 [INFO] WindowManager: 窗口管理器初始化完成
+2026-07-03 19:33:51 [INFO] BrowserController: 浏览器控制器初始化完成
+2026-07-03 19:33:51 [INFO] InputController: 输入控制器初始化完成
+2026-07-03 19:33:51 [INFO] MainController: ============================================================
+2026-07-03 19:33:51 [INFO] MainController: 自动切换控制器初始化完成
+2026-07-03 19:33:51 [INFO] MainController: ============================================================
+2026-07-03 19:33:51 [INFO] MainController: 正在检查系统前提条件...
+2026-07-03 19:33:51 [INFO] MainController: ✓ LOL进程已运行
+2026-07-03 19:33:51 [INFO] MainController: ✓ 系统前提条件检查完成
+2026-07-03 19:33:51 [INFO] MainController: 
+============================================================
+2026-07-03 19:33:51 [INFO] MainController: 开始检测循环
+2026-07-03 19:33:51 [INFO] MainController: ============================================================
+2026-07-03 19:33:57 [INFO] Detector: 检测到阵亡状态！复活倒计时: 10秒
+2026-07-03 19:33:57 [INFO] MainController: ============================================================
+2026-07-03 19:33:57 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:33:57 [INFO] MainController: ============================================================
+2026-07-03 19:33:57 [INFO] MainController: Edge已运行
+2026-07-03 19:33:57 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:33:57 [INFO] WindowManager: 找到抖音标签页: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:33:57 [INFO] WindowManager: 抖音页面已存在，切换到该页面
+2026-07-03 19:33:58 [INFO] WindowManager: 窗口已激活: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 10 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:33:59 [INFO] MainController: ✓ 已设置复活倒计时: 10秒 → 8.5秒（已扣除切换耗时1.5秒）
+2026-07-03 19:33:59 [INFO] MainController: ============================================================
+2026-07-03 19:33:59 [INFO] MainController: 切换流程完成（耗时1.5秒）
+2026-07-03 19:33:59 [INFO] MainController: ============================================================
+2026-07-03 19:34:04 [INFO] MainController: 运行时间: 13.1秒 | FPS: 2.3 | 状态: uncertain | 复活倒计时: 3秒 | CPU: 0.0%
+2026-07-03 19:34:06 [INFO] MainController: ============================================================
+2026-07-03 19:34:06 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:34:06 [INFO] MainController: ============================================================
+2026-07-03 19:34:06 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:34:06 [INFO] InputController: 发送播放键: space
+2026-07-03 19:34:06 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:34:06 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:34:07 [INFO] WindowManager: 窗口已激活: League of Legends (TM) Client
+2026-07-03 19:34:07 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:34:07 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:34:07 [INFO] MainController: ============================================================
+2026-07-03 19:34:07 [INFO] MainController: 切换流程完成
+2026-07-03 19:34:07 [INFO] MainController: ============================================================
+2026-07-03 19:34:15 [INFO] MainController: 运行时间: 23.4秒 | FPS: 2.9 | 状态: alive | CPU: 0.0%
+2026-07-03 19:34:16 [INFO] MainController: 正在停止控制器...
+2026-07-03 19:34:16 [INFO] Detector: 检测器已关闭
+2026-07-03 19:34:16 [INFO] MainController: 控制器已停止

@@ -131,11 +131,14 @@ class AutoSwitchController:
         Args:
             respawn_timer: 复活倒计时（秒）
         """
+        # 记录开始时间，用于计算切换耗时
+        switch_start_time = time.time()
+
         self.logger.info("=" * 60)
         self.logger.info("触发自动切换流程")
         self.logger.info("=" * 60)
 
-        # 1. 检查Edge是否运行
+        # 1. 检查Edge是否运行，如果没运行则启动
         if not self.window_manager.is_edge_running():
             self.logger.info("Edge未运行，正在启动...")
             if not self.browser_controller.open_target_page():
@@ -147,36 +150,38 @@ class AutoSwitchController:
         else:
             self.logger.info("Edge已运行")
 
-        # 2. 切换到Edge窗口
-        if not self.window_manager.switch_to_edge():
-            self.logger.error("切换到Edge失败")
+        # 2. 智能切换到抖音页面（如果存在则切换，不存在则打开）
+        if not self.window_manager.switch_to_douyin_or_open(self.config.TARGET_URL):
+            self.logger.error("切换到抖音失败")
             return
 
         # 3. 等待窗口获得焦点
         time.sleep(0.5)
 
-        # 4. 发送播放键
-        if self.input_controller.press_play_key():
-            self.logger.info("✓ 播放键已发送")
-        else:
-            self.logger.error("发送播放键失败")
+        # 注意：不再自动发送播放键，由用户手动控制播放
 
-        # 5. 标记冷却
-        self.cooldown.trigger()
-        self.last_trigger_time = time.time()
+        # 4. 计算切换耗时并补偿
+        switch_elapsed = time.time() - switch_start_time
 
-        # 6. 设置复活倒计时
+        # 5. 设置复活倒计时（扣除切换耗时）
         if respawn_timer is not None and respawn_timer > 0:
+            # 扣除切换耗时，确保倒计时更准确
+            adjusted_timer = max(1, respawn_timer - switch_elapsed)  # 至少保留1秒
+
             self.respawn_timer_start = time.time()
-            self.respawn_duration = respawn_timer
+            self.respawn_duration = adjusted_timer
             self.is_waiting_respawn = True
-            self.logger.info(f"✓ 已设置复活倒计时: {respawn_timer}秒")
+
+            if abs(adjusted_timer - respawn_timer) >= 1:
+                self.logger.info(f"✓ 已设置复活倒计时: {respawn_timer:.0f}秒 → {adjusted_timer:.1f}秒（已扣除切换耗时{switch_elapsed:.1f}秒）")
+            else:
+                self.logger.info(f"✓ 已设置复活倒计时: {adjusted_timer:.1f}秒")
         else:
             self.is_waiting_respawn = False
             self.logger.warning("未识别到倒计时，不会自动切回游戏")
 
         self.logger.info("=" * 60)
-        self.logger.info(f"切换流程完成")
+        self.logger.info(f"切换流程完成（耗时{switch_elapsed:.1f}秒）")
         self.logger.info("=" * 60)
 
     def run_detection_loop(self):
