@@ -4,6 +4,10 @@
 """
 
 import sys
+import io
+
+# 设置stdout为UTF-8编码，避免Windows GBK编码错误
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
 
 def test_pytesseract_import():

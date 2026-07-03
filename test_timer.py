@@ -6,13 +6,18 @@
 import cv2
 import numpy as np
 import re
+import sys
+import io
+
+# 设置stdout为UTF-8编码，避免Windows GBK编码错误
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
 try:
     import pytesseract
     TESSERACT_AVAILABLE = True
 except ImportError:
     TESSERACT_AVAILABLE = False
-    print("❌ pytesseract未安装")
+    print("X pytesseract未安装")
     exit(1)
 
 

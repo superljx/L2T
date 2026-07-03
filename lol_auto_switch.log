@@ -1740,3 +1740,55 @@ AttributeError: 'WindowManager' object has no attribute 'is_edge_foreground'
 2026-07-03 19:34:16 [INFO] MainController: 正在停止控制器...
 2026-07-03 19:34:16 [INFO] Detector: 检测器已关闭
 2026-07-03 19:34:16 [INFO] MainController: 控制器已停止
+2026-07-03 19:50:36 [INFO] Detector: 游戏状态检测器初始化完成 (OCR文字识别模式)
+2026-07-03 19:50:36 [INFO] WindowManager: 窗口管理器初始化完成
+2026-07-03 19:50:36 [INFO] BrowserController: 浏览器控制器初始化完成
+2026-07-03 19:50:36 [INFO] InputController: 输入控制器初始化完成
+2026-07-03 19:50:36 [INFO] MainController: ============================================================
+2026-07-03 19:50:36 [INFO] MainController: 自动切换控制器初始化完成
+2026-07-03 19:50:36 [INFO] MainController: ============================================================
+2026-07-03 19:50:36 [INFO] MainController: 正在检查系统前提条件...
+2026-07-03 19:50:36 [INFO] MainController: ✓ LOL进程已运行
+2026-07-03 19:50:36 [INFO] MainController: ✓ 系统前提条件检查完成
+2026-07-03 19:50:36 [INFO] MainController: 
+============================================================
+2026-07-03 19:50:36 [INFO] MainController: 开始检测循环
+2026-07-03 19:50:36 [INFO] MainController: ============================================================
+2026-07-03 19:50:46 [INFO] MainController: 运行时间: 9.9秒 | FPS: 3.0 | 状态: alive | CPU: 0.0%
+2026-07-03 19:50:52 [INFO] Detector: 检测到阵亡状态！复活倒计时: 35秒
+2026-07-03 19:50:52 [INFO] MainController: ============================================================
+2026-07-03 19:50:52 [INFO] MainController: 触发自动切换流程
+2026-07-03 19:50:52 [INFO] MainController: ============================================================
+2026-07-03 19:50:52 [INFO] MainController: Edge已运行
+2026-07-03 19:50:52 [INFO] WindowManager: 检查抖音标签页...
+2026-07-03 19:50:52 [INFO] WindowManager: 未找到抖音标签页
+2026-07-03 19:50:52 [INFO] WindowManager: 抖音页面不存在，打开新页面
+2026-07-03 19:50:55 [INFO] WindowManager: 找到抖音标签页: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 12 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:50:55 [INFO] WindowManager: 找到新打开的抖音页面（尝试1/5）
+2026-07-03 19:50:56 [INFO] WindowManager: 窗口已激活: 抖音精选电脑版 - 抖音旗下优质视频平台 和另外 12 个页面 - 个人 - Microsoft​ Edge
+2026-07-03 19:50:56 [INFO] MainController: ✓ 已设置复活倒计时: 35秒 → 30.3秒（已扣除切换耗时4.7秒）
+2026-07-03 19:50:57 [INFO] MainController: ============================================================
+2026-07-03 19:50:57 [INFO] MainController: 切换流程完成（耗时4.7秒）
+2026-07-03 19:50:57 [INFO] MainController: ============================================================
+2026-07-03 19:51:00 [INFO] MainController: 运行时间: 24.8秒 | FPS: 2.1 | 状态: uncertain | 复活倒计时: 26秒 | CPU: 0.0%
+2026-07-03 19:51:20 [INFO] MainController: 运行时间: 44.6秒 | FPS: 1.5 | 状态: uncertain | 复活倒计时: 7秒 | CPU: 0.0%
+2026-07-03 19:51:25 [INFO] MainController: ============================================================
+2026-07-03 19:51:25 [INFO] MainController: 复活倒计时结束，切换回游戏
+2026-07-03 19:51:25 [INFO] MainController: ============================================================
+2026-07-03 19:51:25 [INFO] MainController: 暂停视频播放...
+2026-07-03 19:51:25 [INFO] InputController: 发送播放键: space
+2026-07-03 19:51:26 [INFO] MainController: ✓ 已发送暂停键
+2026-07-03 19:51:26 [INFO] MainController: 正在切换回游戏窗口...
+2026-07-03 19:51:27 [INFO] WindowManager: 窗口已激活: League of Legends (TM) Client
+2026-07-03 19:51:27 [INFO] MainController: ✓ 已切换回游戏
+2026-07-03 19:51:27 [INFO] Detector: 检测到存活状态（已复活）
+2026-07-03 19:51:27 [INFO] MainController: ============================================================
+2026-07-03 19:51:27 [INFO] MainController: 切换流程完成
+2026-07-03 19:51:27 [INFO] MainController: ============================================================
+2026-07-03 19:51:34 [INFO] MainController: 运行时间: 58.5秒 | FPS: 2.2 | 状态: alive | CPU: 15.5%
+2026-07-03 19:51:52 [INFO] MainController: 运行时间: 1分16秒 | FPS: 1.7 | 状态: alive | CPU: 0.0%
+2026-07-03 19:52:10 [INFO] MainController: 运行时间: 1分34秒 | FPS: 1.7 | 状态: alive | CPU: 0.0%
+2026-07-03 19:52:26 [INFO] MainController: 运行时间: 1分50秒 | FPS: 1.9 | 状态: alive | CPU: 0.0%
+2026-07-03 19:52:31 [INFO] MainController: 正在停止控制器...
+2026-07-03 19:52:31 [INFO] Detector: 检测器已关闭
+2026-07-03 19:52:31 [INFO] MainController: 控制器已停止
